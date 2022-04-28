@@ -1,14 +1,27 @@
 import "./App.css";
+import React from "react";
+import Home from "./components/Pages/Home";
+import About from "./components/Pages/About";
+import Blog from "./components/Pages/Blog";
+import Contact from "./components/Pages/Contact";
 import NavBar from "./components/Navbar";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "./components/pages/Home";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect
+} from "react-router-dom";
+
 function App() {
   return (
     <>
       <Router>
         <NavBar />
+        <Home />
+        <About />
+        <Blog />
+        <Contact />
       </Router>
-      <Home />
     </>
   );
 }

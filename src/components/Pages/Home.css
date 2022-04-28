@@ -1,7 +1,7 @@
 .front1 {
   background-image: "url(./Images/background-home.png)";
   /* background-size: contain; */
-  display: block;
+  display: flex;
   max-width: 50%;
   max-height: 50%;
 }
