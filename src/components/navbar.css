@@ -1,13 +1,14 @@
 .navbar {
   height: 60px;
+  width: 100%;
   display: flex;
+  /* margin-left: 2px; */
   justify-content: center;
   align-items: center;
   font-size: 1.15rem;
   position: sticky;
   top: 0;
   z-index: 20;
-  /* From https://css.glass */
   background: rgba(213, 198, 114, 0.01);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(16.7px);
@@ -19,16 +20,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 120%;
   height: 80px;
-  margin-left: 20px;
+  margin-left: 70px;
   max-width: 1500px;
 }
 
 .nav-logo {
   color: #727865;
-  /* align-items: center; */
-  /* margin-left: 10px; */
+  align-items: center;
+  margin-left: 10px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
@@ -80,7 +81,7 @@
   display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1000px) {
   .nav-menu {
     display: flex;
     flex-direction: column;
