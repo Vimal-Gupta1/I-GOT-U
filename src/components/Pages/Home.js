@@ -1,5 +1,4 @@
 import React from "react";
-import "./Home.css";
 const logo = require("./Images/background-home.png");
 
 class Home extends React.Component {
